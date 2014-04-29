@@ -9,8 +9,11 @@ public class User {
 	private String email;
 	private String vname;
 	private String nname;
-	private List<User> friends = new ArrayList<User>();
+	private Ort ort;
 	
+	/* Should be filled only by request with a query*/
+	private List<String> friends = new ArrayList<String>();
+
 	/**
 	 * Constructor to create a new user, without asking for surname and name
 	 * @param uname	Username of the new user
