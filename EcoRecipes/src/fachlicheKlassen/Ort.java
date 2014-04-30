@@ -5,8 +5,6 @@ public class Ort {
 	private String OrtName;
 	private int PLZ;
 	private String Land;
-	private String test;
-
 	
 	
 }
