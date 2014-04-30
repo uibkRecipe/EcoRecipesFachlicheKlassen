@@ -81,6 +81,4 @@ public class User {
 	public void setFriends(List<String> friends) {
 		this.friends = friends;
 	}
-	
-
 }
