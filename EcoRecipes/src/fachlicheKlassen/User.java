@@ -53,6 +53,34 @@ public class User {
 	public boolean addFriend(String uname){
 		return false;
 	}
+
+	public void setUser_name(String user_name) {
+		this.user_name = user_name;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public void setVname(String vname) {
+		this.vname = vname;
+	}
+
+	public void setNname(String nname) {
+		this.nname = nname;
+	}
+
+	public void setOrt(Ort ort) {
+		this.ort = ort;
+	}
+
+	public void setFriends(List<String> friends) {
+		this.friends = friends;
+	}
 	
 
 }
