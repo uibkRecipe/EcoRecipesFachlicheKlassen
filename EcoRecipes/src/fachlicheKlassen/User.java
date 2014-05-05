@@ -3,7 +3,9 @@ package fachlicheKlassen;
 import java.util.ArrayList;
 import java.util.List;
 
-public class User {
+import Interfaces.UserInterface;
+
+public class User implements UserInterface{
 	private String user_name;
 	private String password;
 	private String email;

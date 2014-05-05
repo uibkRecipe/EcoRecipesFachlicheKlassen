@@ -5,6 +5,7 @@ public class Ort {
 	private String OrtName;
 	private int PLZ;
 	private String Land;
+	
 	public void setOrtId(int ortId) {
 		OrtId = ortId;
 	}

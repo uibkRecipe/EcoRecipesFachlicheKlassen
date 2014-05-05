@@ -11,7 +11,6 @@ public class Rezept {
 	private List<Zutaten> zutaten;
 	
 	public Rezept(String autor, String name, String zubereitung, List<Zutaten> zutaten) {
-		// TODO Auto-generated constructor stub
 		this.autor = autor;
 		this.name = name;
 		this.zubereitung = zubereitung;

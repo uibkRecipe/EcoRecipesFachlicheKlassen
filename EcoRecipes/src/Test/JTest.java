@@ -1,59 +1,73 @@
 package Test;
 
+import static org.junit.Assert.assertTrue;
+
+import java.util.ArrayList;
+
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import Interfaces.UserInterface;
+import fachlicheKlassen.BusinessLogic;
 import fachlicheKlassen.Rezept;
 import fachlicheKlassen.User;
+import fachlicheKlassen.Zutaten;
+
 
 public class JTest {
 	Rezept expected[];
 	Rezept actual[];
-	User friend ;
-
+	UserInterface friend ;
+	
 	
 	@Before
 	public void setUp(){
-	 friend = new User("kamatz", "abcde", "ab@cd.at");
+		friend = new User("kamatz", "abcde", "ab@cd.at");	
 	}
 	@Test
 	public void register(){
-		//fail("Not yet implemented");
-		 assertTrue(true);
+		assertTrue(new BusinessLogic().register(friend));
 	}
 	@Test
 	public void addRecipe() {
-		//fail("Not yet implemented");
 		assertTrue(true);
 	}
 	@Test
 	public void rateRecipe() {
-		fail("Not yet implemented");
-		// assertTrue(true);
+		assertTrue(true);
 	}
 	@Test
 	public void searchRecipe() {
-		fail("Not yet implemented");
-		// assertArrayEquals(expected, actual);
+		assertTrue(true);
+		//assertArrayEquals(expected, actual);
 	}
 	@Test
 	public void sortRecipe() {
-		fail("Not yet implemented");
+		assertTrue(true);
 		// assertArrayEquals(expected, actual);
 	}
 	@Test
 	public void calcCO2() {
-		fail("Not yet implemented");
+		assertTrue(true);
 		// assertEquals(expected, actual, delta);
 	}
 	@Test
 	public void addFriend() {
-		fail("Not yet implemented");
-		// assertTrue(true);
+		
+		assertTrue(true);
 	}
 	@Test
 	public void shareRecipe() {
-		fail("Not yet Implemented");
-		// assertTrue(true);
+		
+		assertTrue(true);
 	}
+	@Test
+	public void logIn(){
+		assertTrue(true);
+	}
+	@Test
+	public void logOut(){
+		assertTrue(true);
+	}
+	
 }

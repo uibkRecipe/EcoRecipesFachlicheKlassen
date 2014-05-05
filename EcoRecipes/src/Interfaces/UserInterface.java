@@ -1,6 +1,7 @@
 package Interfaces;
 
-public interface User {
+public interface UserInterface {
 	public boolean addFriend(String uname);
 	public boolean loadFriendsList(String uname);
+	public boolean deleteFriend(String uname);
 }
