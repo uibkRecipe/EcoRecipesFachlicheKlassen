@@ -51,9 +51,15 @@ public class User {
 	 * @return
 	 */
 	public boolean addFriend(String uname){
-		return false;
+		return true;
 	}
-
+	
+	public boolean deleteFriend(String uname){
+		return true;
+	}
+	public boolean loadFriendsList(String uname){
+		return true;
+	}
 	public void setUser_name(String user_name) {
 		this.user_name = user_name;
 	}
